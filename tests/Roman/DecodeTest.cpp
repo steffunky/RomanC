@@ -18,6 +18,6 @@ TEST_GROUP(Roman)
 
 TEST(Roman, Decode_I)
 {
-  INTS_EQUAL(1, decode("I"));
+  CHECK_EQUAL(1, roman_decode("I"));
 }
 
